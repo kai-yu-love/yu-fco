@@ -49,18 +49,48 @@ float: left;
     float: right
 }
 .styles{
+    position: relative;
     overflow: hidden;
 }
-.styles .styles-Img{
-    width: 50%;
-    height: 512px;
+.styles .styles-active1{
+    width: 560px;
+    height: 440px;
+    background: url(../img/gujia.png) 0px 85px no-repeat;
+    position: relative;
+    margin-left: 30px;
     float: left;
 }
-.styles .styles-Img img{
-    width: 500px;
-    margin-top: 123px;
-    margin-left: 30px;
+.styles .styles-active2{
+    width: 560px;
+    height: 400px;
+    background: url(../img/waiguan.jpg) 0px 0px no-repeat;
+    position: relative;
+    margin-top: 82px;
+    margin-left: 45px;
+    float: left;
 }
+.styles .styles-active3{
+    width: 560px;
+    height: 400px;
+    background: url(../img/neishi.jpg) 0px 0px no-repeat;
+    position: relative;
+    margin-top: 82px;
+    margin-left: 45px;
+    float: left;
+}
+.styles-Img .re{
+    cursor:pointer;
+    font-size: 12px;
+    background: red;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .styles-tab{
     overflow: hidden;
     float: right;
@@ -115,4 +145,53 @@ float: left;
 }
 .table_d{
     width: 100%;
+}
+.IMG-posi{
+    width: 1200px;
+    position: relative;
+}
+
+
+.Img_text {
+    position: absolute;
+    top: -150px;
+    left: 76px;
+    width: 350px;
+    height: 235px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    /* position: relative; */
+    display: none;
+    z-index: 200;
+    background: #fff;
+}
+.Img_text p{
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Img_text img {
+    width: 350px;
+    height: 200px;
+    margin-top: 12px;
+}
+.Img_text:before {
+    display: block;
+    content: "";
+    width: 51px;
+    height: 27px;
+    background: url(../img/icon_circle.png);
+    position: absolute;
+    left: -51px;
+    bottom: 100px;
+}
+.styles-active1  div:hover .Img_text{
+    display: block;
+}
+.styles-active2 > div:hover .Img_text{
+    display: block;
+}
+.styles-active3 > div:hover .Img_text{
+    display: block;
 }

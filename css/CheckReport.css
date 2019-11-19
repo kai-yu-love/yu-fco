@@ -1,0 +1,429 @@
+﻿
+.JianceTextBox{font-size:14px;}
+.JianceTextBox tr td{ padding-left:10px;}
+.JianceTitle{width: 250px; border-bottom: 1px solid #EBEBEB; border-right: 1px solid #EBEBEB; padding: 7px; padding-left:15px;}
+.JianceContent{width: 670px; border-bottom: 1px solid #EBEBEB; border-right: 1px solid #EBEBEB;   padding:7px;}
+
+/*检测表格样式*/
+.listjiance{width:596px;overflow:hidden; }
+.listjiance li{height:30px;border-bottom:1px solid #fff;background:#f2f2f2;width:270px;float:left;margin-left:28px;position:relative;}
+.listjiance li i{width:30px;height:30px;line-height:30px;display:inline-block;border-right:1px solid #fff;text-align:center;background:#ccc;color:#fff;font-style:normal;float:left;}
+.listjiance li strong{width:140px;font-weight:normal;text-indent:10px;display:inline-block;height:30px;line-height:30px;}
+.listjiance li span{width:99px;height:30px;line-height:30px;position:absolute;top:0;right:0;border-bottom:0px solid #f2f2f2;display:inline-block;background:#fff;overflow:hidden;text-indent:5px;}
+.listjiance li span ins,span.gou-ico{width:20px;height:16px;display:inline-block;background:url('/images/true-ico.png');margin:6px 0 0 7px;position:relative;left:-5px;}
+.listjiance li span del{color:#f47410;text-decoration:none;margin:0 0 0 7px;line-height:30px;}
+.listjiance-img{width:541px;float:left;padding:0 0 0 21px;}
+.listjiance-img-ico{position:absolute;background:url('/images/tip-potiner.png');width:20px;height:20px;display:inline-block;line-height:20px;text-align:center;color:#fff;font-family:Arial;font-size:11px;cursor:pointer;}
+/*检测表格样式 结束*/
+
+/*车况检测表格*/
+
+.JianCeTablebox {
+	overflow:hidden;
+}
+.JianCeTablemain {
+	width:1200px;
+}
+.JianCeTable {
+	width:357px;
+	float:left;
+	margin-right:43px;
+	margin-bottom:30px;
+}
+.JianCeTable table {
+	width:100%;
+}
+.JianCeTable td,.JianCeTable th {
+	border:1px solid #f2f2f2;
+	padding:10px 20px;
+	line-height:18px;
+	color:#666;
+}
+.JianCeTable th {
+	background:#f2f2f2;
+	font-weight:bold;
+}
+.JianCeTable td.col2 {
+	width:60px;
+	padding:10px 0;
+	text-align:center;
+	color:#ff7f00;
+}
+
+
+/*车况检测表格*/
+
+/*消除弹出的边框和样式*/
+.webox{ padding: 0px;border:0px;box-shadow:0 0 1px rgba(0, 0, 0, .8);}
+.webox #inside h1{background:#eee url(); line-height: 45px;height: 45px;}
+.webox #inside h1 a{margin-top: 12px;margin-right:10px;}
+/*消除弹出的边框和样式 结束*/
+
+
+/*定位点样式*/
+
+   
+        .shadow
+        {
+            background-color: #ffffff;
+        }
+       
+        .markstable
+        {
+            line-height: 28px;
+            margin-top: 8px;
+        }
+        .markstablec tr td
+        {
+            padding-top: 20px;
+            line-height: 28px;
+        }
+        .smallnumber
+        {
+            position: absolute;
+            top: 4px;
+            left: 8px;
+            color: White;
+            font-weight: normal;
+            font-size: 12px;
+            font-family:Arial;
+            text-align:center;
+            display:block;
+            vertical-align:middle;
+        }
+         .tb-thumb .tb-selected
+        {
+            background: none repeat scroll 0 0 #C30008;
+            height: 40px;
+            padding: 2px;
+        }
+        .tb-thumb .tb-selected div
+        {
+            background-color: #FFFFFF;
+            border: medium none;
+        }
+        .tb-thumb li div
+        {
+            border: 1px solid #CDCDCD;
+        }
+        div.zoomDiv
+        {
+            z-index: 999;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 200px;
+            height: 200px;
+            background: #ffffff;
+            border: 1px solid #CCCCCC;
+            display: none;
+            text-align: center;
+            overflow: hidden;
+        }
+/*定位点样式结束*/
+ .gujia_leftb_is{position:absolute;top:230px;left:300px;}
+.gujia_lefta_is{position:absolute;top:255px;left:236px;}
+.gujia_righta_is{position:absolute;top:175px;left:150px;}
+.gujia_rightb_is{position:absolute;top:149px;left:227px;}
+.gujia_rightbxbd_is{position:absolute;top:179px;left:227px;}
+.gujia_rightc_is{position:absolute;top:123px;left:305px;}
+.gujia_yhlsc_is{position:absolute;top:123px;left:334px;}
+.gujia_zhlsc_is{position:absolute;top:203px;left:408px;}
+.gujia_hbxdleft_is{position:absolute;top:167px;left:375px;}
+.gujia_beitaicao_is{position:absolute;top:185px;left:393px;}
+.gujia_hbxdright_is{position:absolute;top:143px;left:348px;}
+.gujia_leftbxbd_is{position:absolute;top:277px;left:299px;}
+.gujia_leftc_is{position:absolute;top:207px;left:374px;}
+.gujia_leftqzl_is{position:absolute;top:301px;left:126px;}
+
+.gujia_rightqzl_is{position:absolute;top:274px;left:102px;}
+
+.gujia_leftqjzq_is{position:absolute;top:285px;left:165px;}
+
+.gujia_rightqjzq_is{position:absolute;top:228px;left:108px;}
+
+.neishi_sxkj_is{position:absolute;top:300px;left:92px;}
+
+
+
+.gujia_fhq_is{position:absolute;top:260px;left:142px;}
+
+
+.gujia_rightqyzbnc_is{position:absolute;top:240px;left:80px;}
+
+
+.gujia_leftqyzbnc_is{position:absolute;top:338px;left:165px;}
+
+.gujia_leftandrightdcx_is{position:absolute;top:328px;left:60px;}
+
+
+
+.gujia_righthzl_is{position:absolute;top:158px;left:292px;}
+
+
+.gujia_lefthzl_is{position:absolute;top:228px;left:353px;}
+
+.gujia_csdb_is{position:absolute;top:200px;left:270px;}
+
+
+
+ /*(1),左前门是否完好*/
+.waiguan_zqm_is{position:absolute;top:52px;left:284px;}
+
+/*(2),左前门玻璃是否完好、正常工作*/
+.waiguan_zqmbl_is{position:absolute;    top: 85px;left: 278px;}
+
+/*(3),左后视镜是否完好*/
+.waiguan_zhsj_is{position:absolute;    top: 80px;left: 331px;}
+
+/*(4),左前翼子板1号位是否完好*/
+.waiguan_zqyzb_is{position:absolute;top: 55px;left: 408px;}
+
+/*(5),左前翼子板2号位是否完好*/
+.waiguan_zqyzb2_is{position:absolute;    top: 39px;left: 472px;}
+
+/*(6),左前轮毂是否完好*/
+.waiguan_zqlg_is{position:absolute;    top: 0px;left: 427px;}
+
+/*(7),左前轮花纹深度是否正常*/
+.waiguan_zqlthwsd_is{position:absolute;    top: -10px;left: 380px;}
+
+/*(8),左前裙边*/
+.waiguan_zqunbian_is{position:absolute;    top: -2px;left: 288px;}
+
+/*(9),左前灯是否完好*/
+.waiguan_zuoqiandeng_is{position:absolute;    top: 95px;left: 487px;}
+
+/*(10),前保险杠左侧是否完好*/
+.waiguan_qbxg_is{position:absolute;    top: 110px;left: 521px;}
+
+/*(11),前保险杠中侧是否完好*/
+.waiguan_qbxg2_is{position:absolute;    top: 155px;left: 530px;}
+
+/*(12),前保险杠右侧是否完好*/
+.waiguan_qbxg3_is{position:absolute;    top: 210px;left: 520px;}
+
+/*(13),右前灯是否完好*/
+.waiguan_youqiandeng_is{position:absolute;    top: 210px;left: 495px;}
+
+/*(14),发动机盖1号位是否完好*/
+.waiguan_fdjg_is{position:absolute;top: 132px;left: 492px;}
+
+/*(15),发动机盖2号位是否完好*/
+.waiguan_fdjg2_is{position:absolute;top: 132px;left: 452px;}
+
+/*(16),发动机盖3号位是否完好*/
+.waiguan_fdjg3_is{position:absolute;    top: 132px;left: 412px;}
+
+/*(17),发动机盖4号位是否完好*/
+.waiguan_fdjg4_is{position:absolute;top: 183px;left: 492px;}
+
+/*(18),发动机盖5号位是否完好*/
+.waiguan_fdjg5_is{position:absolute;    top: 183px;left: 452px;}
+
+/*(19),发动机盖6号位是否完好*/
+.waiguan_fdjg6_is{position:absolute;    top: 183px;left: 412px;}
+
+/*(20),前挡风玻璃是否完好*/
+.waiguan_qdfbl_is{position:absolute; top: 156px;left: 348px;}
+
+/*(21),右前翼子板1号位是否完好*/
+.waiguan_yqyzb_is{position:absolute;    top: 265px;left: 406px;}
+
+/*(22),右前翼子板2号位是否完好*/
+.waiguan_yqyzb2_is{position:absolute;    top: 280px;left: 474px;}
+
+/*(23),右前轮毂是否完好*/
+.waiguan_yqlg_is{position:absolute;    top: 324px;left: 433px;}
+
+/*(24),右前轮花纹深度是否正常*/
+.waiguan_yqlthwsd_is{position:absolute;top: 325px;left: 373px;}
+
+/*(25),右前门是否完好*/
+.waiguan_yqm_is{position:absolute;    top: 280px;left: 281px;}
+
+/*(26),右前裙边*/
+.waiguan_yqunbian_is{position:absolute;top:316px;left:280px;}
+
+/*(27),右前门玻璃是否完好、正常工作*/
+.waiguan_yqmbl_is{position:absolute;    top: 233px;left: 271px;}
+
+/*(28),右后视镜是否完好*/
+.waiguan_yhsj_is{position:absolute;    top: 243px;left: 325px;}
+
+/*(29),右后门是否完好*/
+.waiguan_yhm_is{position:absolute;top:283px;left:190px;}
+
+/*(30),右后裙边*/
+.waiguan_yqunbian2_is{position:absolute;top:321px;left:199px;}
+
+/*(31),右后门玻璃是否完好、正常工作*/
+.waiguan_yhmbl_is{position:absolute;    top: 230px;left: 191px;}
+
+/*(32),右后翼子板1号位是否完好*/
+.waiguan_yhyzb_is{position:absolute;    top: 265px;left: 115px;}
+
+/*(33),右后轮毂是否完好*/
+.waiguan_yhlg_is{position:absolute;    top: 321px; left: 140px;}
+
+/*(34),右后轮花纹深度是否正常*/
+.waiguan_yhlthwsd_is{position:absolute;    top: 321px;left: 85px;}
+
+/*(35),右后翼子板2号位是否完好*/
+.waiguan_yhyzb2_is{position:absolute;    top: 273px;left: 49px;}
+
+/*(36),右后灯是否完好*/
+.waiguan_youhoudeng_is{position:absolute;    top: 230px;left: 30px;}
+
+/*(37),后保险杠右侧是否完好*/
+.waiguan_houbaoxiangang3_is{position:absolute;top: 190px;left: -10px;}
+
+/*(38),后保险杠中侧是否完好*/
+.waiguan_houbaoxiangang2_is{position:absolute;    top: 160px;left: -15px;}
+
+/*(39),后保险杠左侧是否完好*/
+.waiguan_houbaoxiangang_is{position:absolute;    top: 120px;left: -15px;}
+
+/*(40),左后灯是否完好*/
+.waiguan_zuohoudeng_is{position:absolute;    top: 90px; left: 30px;}
+
+/*(41),后行李箱盖上左是否完好*/
+.waiguan_houbeixianggai_is{position:absolute;    top: 150px; left: 30px;}
+
+/*(42),后行李箱盖下左是否完好*/
+.waiguan_houbeixianggai3_is{position:absolute;top: 140px; left: 10px;}
+
+/*(43),后行李箱盖下右是否完好*/
+.waiguan_houbeixianggai4_is{position:absolute;    top: 180px; left: 10px;}
+
+/*(44),后行李箱盖上右是否完好*/
+.waiguan_houbeixianggai2_is{position:absolute;    top: 190px;left: 40px;}
+
+/*(45),后挡风玻璃是否完好*/
+.waiguan_hdfbl_is{position:absolute;    top: 170px; left: 110px;}
+
+/*(46),左后翼子板1号位是否完好*/
+.waiguan_zhyzb_is{position:absolute;    top: 59px; left: 115px;}
+
+/*(47),左后翼子板2号位是否完好*/
+.waiguan_zhyzb2_is{position:absolute;top: 45px;left: 50px;}
+
+/*(48),左后轮毂是否完好*/
+.waiguan_zhlg_is{position:absolute;top: -5px; left: 143px;}
+
+/*(49),左后轮花纹深度是否正常*/
+.waiguan_zhlthwsd_is{position:absolute;    top: -15px;left: 95px;}
+
+/*(50),左后裙边*/
+.waiguan_zqunbian2_is{position:absolute;top: 0px;left: 191px;}
+
+/*(51),左后门是否完好*/
+.waiguan_zhm_is{position:absolute;top: 45px; left: 194px;}
+
+/*(52),左后门玻璃是否完好*/
+.waiguan_zhmbl_is{position:absolute;    top: 88px; left: 191px;}
+
+/*(53),车顶外部1号位是否完好*/
+.waiguan_cheding_is{position:absolute;    top: 161px;left:265px;}
+
+/*(54),车顶外部2号位是否完好*/
+.waiguan_cheding2_is{position:absolute;    top: 161px;left:211px;}
+
+/*(55),车顶外部3号位是否完好*/
+.waiguan_cheding3_is{position:absolute;    top: 161px;left:160px;}
+
+
+
+
+/*(1),仪表台是否无划痕*/
+.neishi_zkybt_is{position:absolute;top:34px;left:245px}
+/*(2),车顶棚及周边内饰是否完好*/
+.neishi_cheding_is{position:absolute;top:46px;left:386px}
+
+/*(3),驾驶员座椅是否完好*/
+.neishi_jiashixi_is{position:absolute;top:134px;left:193px}
+
+/*(4),左前门内饰是否完好*/
+.neishi_zqmnsb_is{position:absolute;top:134px;left:98px}
+/*(5), 方向盘是否完好*/
+.neishi_fangxiangpan_is{position:absolute;top:84px;left:192px}
+/*(6),  扶手箱是否完好*/
+.neishi_fushouxiang_is{position:absolute;top:84px;left:242px}
+
+/*(7),右前门内饰是否完好*/
+.neishi_yqmnsb_is{position:absolute;top:134px;left:370px}
+
+/*(8),副驾驶座椅是否完好*/
+.neishi_fujiashixi_is{position:absolute;top:134px;left:293px}
+
+/*(9),右后门内饰是否完好*/
+.neishi_yhmnsb_is{position:absolute;top:264px;left:380px}
+
+/*(10),后排座椅右半是否完好*/
+.neishi_hpzyright_is{position:absolute;top:264px;left:288px}
+
+/*(11),后排座椅左半是否完好*/
+.neishi_hpzyleft_is{position:absolute;top:264px;left:202px}
+
+/*(12),左后门内饰是否完好*/
+.neishi_zhmnsb_is{position:absolute;top:264px;left:104px}
+
+
+
+/*.zxx_in_box{min-height:550px; _height:550px; border-left:0px solid #ccc; border-right:0px solid #ccc; background:white; padding:1em 2.5em 0;}*/
+
+.jiance-detail p{color:#333;text-indent:0px;margin-bottom:10px;height:20px;}
+.jiance-detail p span{text-indent:10;}
+.jiance-detail ins
+{
+background:url('../images/icon_circle.png')
+;width:51px;height:27px;display:inline-block;left:-51px;bottom:101px;position:absolute;							 
+} 
+.jiance-detail
+{
+width:350px;height:235px;border:1px solid #ccc;background:#fff;
+ z-index:999999999999999999;
+text-align:left;padding:14px;display:none;
+}
+		
+		
+		
+#cen_right_top{width:950px;margin:40px auto 0 auto;}
+#cen_right_top .active{background:#6ec564;color:#F3F3F3;}
+#cen_right_top h3{line-height:65px;text-align:center;float:left;height:65px;width:65px;  border-radius: 65px; font-weight:bold;  border:1px solid #999; margin-left:40px; padding:0px;background-color:#F3F3F3;font-size:15px;color:#999;cursor:pointer; }
+#cen_right_top div{font-size:14px;display:none;clear:both;height:350px;padding:20px 0px 0px 20px; margin-top:50px;}
+#cen_right_top div img{ margin-top:100px;}
+
+.ss-xianshi div{ display:none;}
+.ss-xianshi:hover div{ display:block; position:absolute; z-index:9999999999; }
+.span2{ background-color:#eee; width:130px;}
+.span3{ width:155px;}
+.ck {
+	width:15%;
+	margin-top:-30px;
+	margin-left:4%;
+	float:left;
+	*margin-top:-20px;
+}
+.ck ul {
+	width:100%;
+}
+.ck ul li {
+	height:25px;
+	line-height:25px;
+}
+.ck ul li img {
+	margin-top:5px;
+	width:14px;
+	height:14px;
+}
+.ck ul li span {
+	margin-left:5px;
+	color:#8c8c8c;
+	font-family:Microsoft YaHei;
+	font-size:14px;
+}
+.upper
+{
+            text-transform: uppercase;
+}
