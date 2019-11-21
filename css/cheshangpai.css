@@ -65,7 +65,7 @@ float: left;
     height: 400px;
     background: url(../img/waiguan.jpg) 0px 0px no-repeat;
     position: relative;
-    margin-top: 82px;
+    margin-top: 100px;
     margin-left: 45px;
     float: left;
 }
@@ -81,7 +81,7 @@ float: left;
 .styles-Img .re{
     cursor:pointer;
     font-size: 12px;
-    background: red;
+    background: #eb4f38;
     color: #fff;
     width: 25px;
     height: 25px;
@@ -99,7 +99,7 @@ float: left;
 }
 .styles-tab h4{
     text-align: left;
-    margin-top: 40px;
+    margin-top: 78px;
     font-size: 16px;
     margin-left: 40px;
     color: #666;
