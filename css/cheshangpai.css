@@ -133,6 +133,9 @@ float: left;
       border-bottom: 1px solid #e5e5e5;
        color: #666;
 }
+.tdtwo .td2{
+    width: 400px !important;
+}
 .table_s .td3,.td6{
     border-right: 1px solid #e5e5e5;
     font-weight: bold;
