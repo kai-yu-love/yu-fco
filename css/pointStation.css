@@ -1,0 +1,446 @@
+/* 骨架 */
+.styles .guajia_forefzl {
+    left: 60px;
+    top: 330px;
+}
+
+.styles .neishi_sxkj {
+    left: 72px;
+    top: 290px;
+}
+
+.styles .gujia_leftqzl {
+    left: 128px;
+    top: 300px;
+}
+
+.styles .gujia_rightqzl {
+    left: 112px;
+    top: 268px;
+}
+
+.styles .gujia_leftqyzbnc {
+    left: 172px;
+    top: 324px;
+}
+
+.styles .gujia_rightqyzbnc {
+    left: 74px;
+    top: 228px;
+}
+
+.styles .gujia_leftqjzq {
+    left: 195px;
+    top: 269px;
+}
+
+.styles .gujia_rightqjzq {
+    left: 143px;
+    top: 211px;
+}
+
+.styles .gujia_fhq {
+    left: 166px;
+    top: 239px;
+}
+
+.styles .gujia_lefta {
+    left: 239px;
+    top: 255px;
+}
+
+.styles .gujia_leftqsbl {
+    left: 267px;
+    top: 222px;
+}
+
+.styles .gujia_leftqxbl {
+    left: 262px;
+    top: 313px;
+}
+
+.styles .gujia_leftb {
+    left: 298px;
+    top: 250px;
+}
+
+.styles .gujia_hbxdleft {
+    left: 318px;
+    top: 195px;
+}
+
+.styles .gujia_leftbxbd {
+    left: 322px;
+    top: 290px;
+}
+
+.styles .gujia_zhlsc {
+    left: 436px;
+    top: 219px;
+}
+
+.styles .gujia_leftc {
+    left:363px;
+    top: 226px;
+}
+
+.styles .gujia_leftandrightdcx {
+    left: 424px;
+    top: 174px;
+}
+
+.styles .guajia_rearfzl {
+    left: 386px;
+    top: 137px;
+}
+
+.styles .gujia_beitaicao {
+    left: 376px;
+    top: 170px;
+}
+
+.styles .gujia_lefthjzq {
+    left: 375px;
+    top: 246px;
+}
+
+.styles .gujia_righthjzq {
+    left: 278px;
+    top:173px;
+}
+
+.styles .gujia_rightc {
+    left: 284px;
+    top: 145px;
+}
+
+.styles .gujia_yhlsc {
+    left: 348px;
+    top: 120px;
+}
+
+.styles .gujia_rightbxbd {
+    left: 223px;
+    top: 191px;
+}
+
+.styles .gujia_hbxdright {
+    left: 251px;
+    top: 123px;
+}
+
+.styles .gujia_rightb {
+    left: 225px;
+    top: 156px;
+}
+
+.styles .gujia_rightqxbl {
+    left: 193px;
+    top: 212px;
+}
+
+.styles .gujia_rightqsbl {
+    left: 200px;
+    top: 183px;
+}
+
+.styles .gujia_righta {
+    left: 152px;
+    top:175px;
+}
+
+
+/*外观 */
+
+.styles .waiguan_qbxg {
+    left: 503px;
+    top: 107px;
+}
+
+.styles .waiguan_qbxg2 {
+    left: 524px;
+    top: 156px;
+}
+
+.styles .waiguan_qbxg3 {
+    left: 503px;
+    top: 217px;
+}
+
+.styles .waiguan_qdfbl {
+    left: 350px;
+    top: 156px;
+}
+
+.styles .waiguan_zqyzb {
+    left: 408px;
+    top: 43px;
+}
+
+.styles .waiguan_zqyzb2 {
+    left: 480px;
+    top: 24px;
+}
+
+.styles .waiguan_zqlg {
+    left: 408px;
+    top: 17px;
+}
+
+.styles .waiguan_zqlthwsd {
+    left: 408px;
+    top: -10px;
+}
+
+.styles .waiguan_zqm {
+    left: 307px;
+    top: 40px;
+}
+
+.styles .waiguan_zhm {
+    left: 202px;
+    top: 40px;
+}
+.styles .waiguan_zhlg {
+    left: 116px;
+    top: 17px;
+}
+/* 11 */
+
+.styles .waiguan_zqunbian {
+    left: 307px;
+    top: 5px;
+}
+
+.styles .waiguan_zqunbian2 {
+    left: 202px;
+    top: 5px;
+}
+
+.styles .waiguan_houbaoxiangang {
+    left:-3px;
+    top: 116px;
+}
+
+.styles .waiguan_houbaoxiangang2 {
+    left: -13px;
+    top: 156px;
+}
+
+.styles .waiguan_houbaoxiangang3 {
+    left:-3px;
+    top: 200px;
+}
+
+.styles .waiguan_houbeixianggai {
+    left: 33px;
+    top: 128px;
+}
+
+.styles .waiguan_houbeixianggai3 {
+    left: 10px;
+    top: 140px;
+}
+
+.styles .waiguan_houbeixianggai4 {
+    left: 10px;
+    top: 174px;
+}
+
+.styles .waiguan_houbeixianggai2 {
+    left: 33px;
+    top: 192px;
+}
+
+.styles .waiguan_hdfbl {
+    left: 86px;
+    top: 156px;
+}
+
+.styles .waiguan_zhyzb {
+    left: 116px;
+    top: 43px;
+}
+
+.styles .waiguan_zhyzb2 {
+    left: 52px;
+    top: 44px;
+}
+
+.styles .waiguan_yhlg {
+    left: 116px;
+    top: 302px;
+}
+
+.styles .waiguan_yhlthwsd {
+    left: 116px;
+    top: 330px;
+}
+
+.styles .waiguan_yhyzb {
+    left: 116px;
+    top: 273px;
+}
+
+.styles .waiguan_yhyzb2 {
+    left: 52px;
+    top: 274px;
+}
+
+.styles .waiguan_yqunbian {
+    left: 307px;
+    top: 310px;
+}
+
+.styles .waiguan_yqunbian2 {
+    left: 202px;
+    top: 310px;
+}
+
+.styles .waiguan_yhm {
+    left: 202px;
+    top: 274px;
+}
+
+.styles .waiguan_yqm {
+    left: 307px;
+    top: 274px;
+}
+
+.styles .waiguan_yqyzb {
+    left: 408px;
+    top: 274px;
+}
+
+.styles .waiguan_yqyzb2 {
+    left: 480px;
+    top: 280px;
+}
+
+.styles .waiguan_yqlg {
+    left: 408px;
+    top: 302px;
+}
+
+.styles .waiguan_yqlthwsd {
+    left: 408px;
+    top: 330px;
+}
+
+.styles .waiguan_cheding {
+    left: 265px;
+    top: 156px;
+}
+
+.styles .waiguan_cheding2 {
+    left: 222px;
+    top: 156px;
+}
+
+.styles .waiguan_cheding3 {
+    left: 168px;
+    top: 156px;
+}
+
+.styles .waiguan_zhlthwsd {
+    left: 116px;
+    top: -10px;
+}
+
+
+/*内饰*/
+
+.styles .neishi_zkybt {
+    left: 206px;
+    top: 60px;
+}
+
+.styles .neishi_fangxiangpan {
+    left: 194px;
+    top: 90px;
+}
+
+.styles .neishi_liheqijishacheban {
+    left: 282px;
+    top: 42px;
+}
+
+.styles .neishi_kongtiao {
+    left: 286px;
+    top: 60px;
+}
+
+.styles .neishi_kongtiao2 {
+    left: 242px;
+    top: 236px;
+}
+
+.styles .neishi_duomeiti {
+    left: 242px;
+    top: 78px;
+}
+
+.styles .neishi_bsqhdg {
+    left: 242px;
+    top: 104px;
+}
+
+.styles .neishi_zhongkongtai {
+    left: 242px;
+    top: 37px;
+}
+
+.styles .neishi_zqmnsb {
+    left: 84px;
+    top: 114px;
+}
+
+.styles .neishi_zhmnsb {
+    left: 84px;
+    top: 254px;
+}
+
+.styles .neishi_yhmnsb {
+    left: 394px;
+    top: 254px;
+}
+
+.styles .neishi_yqmnsb {
+    left: 394px;
+    top: 114px;
+}
+
+.styles .neishi_jiashixi {
+    left: 196px;
+    top: 136px;
+}
+
+.styles .neishi_jiashixikaobei {
+    left: 196px;
+    top: 205px;
+}
+
+.styles .neishi_hpzyleft {
+    left: 196px;
+    top: 278px;
+}
+
+.styles .neishi_hpzyright {
+    left: 291px;
+    top: 278px;
+}
+
+.styles .neishi_fujiashixi {
+    left: 291px;
+    top: 136px;
+}
+
+.styles .neishi_fujiashixikaobei {
+    left: 291px;
+    top: 207px;
+}
+
+.styles .neishi_cheding {
+    left: 406px;
+    top: 19px;
+}

@@ -4,7 +4,7 @@
     overflow: hidden;
 }
 .headline{
-    padding: 20px 0;
+    padding: 20px 0 0 0;
 }
 .headline h4{
     font-size: 18px;
@@ -15,7 +15,6 @@
 .gjjc-headline{
     width: 98%;
     height: 50px;
-    margin-left: 2%;
 }
 .gjjc-headline p span{
     display: block;
@@ -52,6 +51,12 @@ float: left;
     position: relative;
     overflow: hidden;
 }
+.styles-wg{
+    margin-top: 100px;
+}
+.lefts .gjjc-headline {
+    margin: 0;
+}
 .styles .styles-active1{
     width: 560px;
     height: 440px;
@@ -59,6 +64,7 @@ float: left;
     position: relative;
     margin-left: 30px;
     float: left;
+    margin-top: 80px;
 }
 .styles .styles-active2{
     width: 560px;
@@ -89,6 +95,7 @@ float: left;
     line-height: 24px;
     text-align: center;
     margin: 0 auto;
+    position:absolute;
 }
 
 .styles-tab{
@@ -99,14 +106,13 @@ float: left;
 }
 .styles-tab h4{
     text-align: left;
-    margin-top: 78px;
     font-size: 16px;
     margin-left: 40px;
     color: #666;
     font-weight: bold;
 }
 .table_s{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .table_s tr{
     width: 48%;
@@ -132,9 +138,6 @@ float: left;
       border-right: 1px solid #e5e5e5;
       border-bottom: 1px solid #e5e5e5;
        color: #666;
-}
-.tdtwo .td2{
-    width: 400px !important;
 }
 .table_s .td3,.td6{
     border-right: 1px solid #e5e5e5;
@@ -197,4 +200,30 @@ float: left;
 }
 .styles-active3 > div:hover .Img_text{
     display: block;
+}
+.legend_wrap{
+    width: 100%;
+}
+.legend_wrap ul{
+    font-size: 20px;
+    overflow: hidden;
+    padding: 20px 30px;
+}
+.legend_wrap ul li{
+    float: left;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.legend_wrap ul li i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fdd71c;
+    border-radius: 50%;
+    margin-right: 5px;
+    line-height: 100px;
+}
+.legend_wrap ul li.active i{
+    background-color: #ff5f3f;
 }
