@@ -11,7 +11,6 @@
         <link rel="stylesheet" href="./css/pointStation.css">
         <link rel="stylesheet" href="./css/cheshangpai.css">
 </head>
-
 <body>
         <div class="cljc">
                 <div class="headline">
@@ -279,7 +278,7 @@
                         </table>
                 </div>
                  <!-- 外观检测 -->
-                 <div class="IMG-posi yu-two" style="margin-top: 50px;">
+                 <div class="IMG-posi yu-two   yu-twos" style="margin-top: 50px;">
                         <div class="styles ">
                                 <div class="gjjc-headline">
                                         <p>
@@ -1526,9 +1525,6 @@
                                 </div>
                         </div>
                 </div>
-
-               
-
                 <!-- 内饰检测 -->
                 <div class="IMG-posi yu-one">
                         <div class="styles">
@@ -2606,9 +2602,20 @@
                         </table>
                 </div>
         </div>
-
         </div>
+        <script src="./js/jquery-1.12.4.js"></script>
         <script src="./js/cheshangpai.js"></script>
+        <script>
+                $(function(){
+                        $(window).scroll(function(){
+                                var heights = $(window).scrollTop()
+                        const jc = $(".yu-twos").offset().top
+                                if(jc<heights){
+                                        $(".span1").text("ssssssssssss")
+                                } 
+                        })
+                })
+        </script>
 </body>
 
 </html>
