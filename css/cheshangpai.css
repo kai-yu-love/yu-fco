@@ -1,7 +1,7 @@
 .cljc{
     width: 1200px;
     margin:  0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
 }
 .headline{
@@ -50,11 +50,8 @@ float: left;
 }
 .styles{
     position: relative;
-    overflow: hidden;
+    height: 100%;
 }
-/* .styles-wg{
-    margin-top: 100px;
-} */
 .lefts .gjjc-headline {
     margin: 0;
 }
@@ -85,6 +82,19 @@ float: left;
     margin-left: 45px;
     float: left;
 }
+.styles-Img .res{
+    cursor:pointer;
+    font-size: 12px;
+    background: #ffe153;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    position:absolute;
+}
 .styles-Img .re{
     cursor:pointer;
     font-size: 12px;
@@ -99,11 +109,10 @@ float: left;
     position:absolute;
 }
 
+
 .styles-tab{
-    overflow: hidden;
     float: right;
     width: 49%;
-    /* height: 512px; */
 }
 .styles-tab h4{
     text-align: left;
@@ -129,23 +138,28 @@ float: left;
 .table_s .td1,.td4{
     border: 1px solid #e5e5e5;
     font-weight: bold;
-    color: #666;
+    color: #555;
     width: 51px;
 }
-.table_s .td2 ,.td5{
+.table_s .td2{
     font-weight: bold;
      border-top: 1px solid #e5e5e5;
      width: 206px;
       border-right: 1px solid #e5e5e5;
       border-bottom: 1px solid #e5e5e5;
-       color: #666;
+       color: #555;
 }
 .table_s .td3,.td6{
     border-right: 1px solid #e5e5e5;
     font-weight: bold;
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5; 
-    color: #666;width: 41px;
+    color: #555;width: 41px;
+    position: relative;
+}
+.td3s{
+    width: 10px;
+    height: 10px;
 }
 .table_s .tr2{
     
@@ -221,7 +235,7 @@ float: left;
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-color: #fdd71c;
+    background-color: #ffe153;
     border-radius: 50%;
     margin-right: 5px;
     line-height: 100px;
@@ -231,9 +245,9 @@ float: left;
 }
 
 .title{
-    box-shadow: 0px 5px 4px  #888888;
+    box-shadow: 0px 2px 10px  #999;
     width:1200px;
-    height: 100px;
+    height: 70px;
     background: #fff;
     position: fixed;
     top: 0;
@@ -242,45 +256,92 @@ float: left;
     display: none;
     /* overflow: hidden; */
 }
-.title-actives{
-    display: block;
-}
-
 .title ul {
-    height: 100px;
+    height: 70px;
     font-size: 16px;
+    /* font-weight: bolder; */
+    color: #111;
     display: flex;
 }
 .title ul li{
     width: 100px;
-    height: 97px;
-    line-height: 97px;
+    height: 67px;
+    line-height: 70px;
     text-align: center;
+    cursor:pointer;
 }
 .li-actives{
     color: #fe5842;
     border-bottom: 3px solid #fe5842;
 }
-.dwas{
+.Img_textd {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0,0,0,0.2);
+    top: -145px;
+    left: 77px;
+    width: 350px;
+    height: 235px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    /* position: relative; */
+    display: none;
+    z-index: 200;
+    background: #fff;
+}
+.Img_textd p{
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+}
+
+.Img_textd img {
+    width: 350px;
+    height: 200px;
+    margin-top: 12px;
+}
+.Img_textd:before {
+    display: block;
+    content: "";
+    width: 51px;
+    height: 27px;
+    background: url(../img/icon_circle.png);
+    position: absolute;
+    left: -51px;
+    bottom: 100px;
+}
+.Img_textdj {
+    position: absolute;
+    top: -121px;
+    left: -420px;
+    width: 350px;
+    height: 235px;
+    padding: 14px;
+    border: 1px solid #ccc;
+    /* position: relative; */
+    display: none;
+    z-index: 200;
+    background: #fff;
+    /* z-index: 1000; */
+}
+.Img_textdj:before {
+    display: block;
+    content: "";
+    width: 51px;
+    height: 27px;
+    background: url(../img/iconfb.png);
+    position: absolute;
+    left: 378px;
+    bottom: 100px;
+}
+.title-actives{
+    display: block;
+}
+.iconsj{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-actives{
     display: none;
 }
-.keigm{
-    width: 500px;
-    height: 500px;
-    padding: 14px;
-    margin: 0 auto;
-    position: absolute;
-    top: 20%;
-    left: 38%;
-   background: #fff !important;
-}
-.keigm img{
-    width: 100%;
-    height:450px;
+tr{
+    text-align: left;
 }
